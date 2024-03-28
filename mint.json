@@ -1,77 +1,87 @@
 {
-    "name": "Spellbound",
-    "logo": "logo.png",
-    "favicon": "/favicon.png",
-    "colors": {
-      "primary": "#c935a9",
-      "light": "#DC59BF",
-      "dark": "#724782",
-      "background": {
-        "dark": "#2B1341"
-      }
+  "name": "Spellbound",
+  "logo": "logo.png",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#c935a9",
+    "light": "#DC59BF",
+    "dark": "#724782",
+    "background": {
+      "dark": "#000000"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "topbarCtaButton": {
+    "name": "Login",
+    "url": "https://spellbound.us.auth0.com/u/login?state=hKFo2SBESFlQWUlYeDRKbmxBQ2tlTmRhRnN0UmJ5TURaQTdaSaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIERSUFV1ZWRjUmFaOXpGdzJWUHJvRkkzS1FyemV5UlMwo2NpZNkgZ2kzUUN3NnBNY3pXczFEdHJwQVJiR092YkJYSzhEdjc"
+  },
+  "topbarLinks": [
+    {
+      "name": "Smart Surveys",
+      "url": "https://www.spellbound.io/smart-surveys"
     },
-    "modeToggle": {
-        "default": "dark",
-        "isHidden": true
+    {
+      "name": "Product Quizzes",
+      "url": "https://www.spellbound.io/quizzes"
     },
-    "topbarCtaButton": {
-      "name": "Login",
-      "url": "https://spellbound.us.auth0.com/u/login?state=hKFo2SBESFlQWUlYeDRKbmxBQ2tlTmRhRnN0UmJ5TURaQTdaSaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIERSUFV1ZWRjUmFaOXpGdzJWUHJvRkkzS1FyemV5UlMwo2NpZNkgZ2kzUUN3NnBNY3pXczFEdHJwQVJiR092YkJYSzhEdjc"
+    {
+      "name": "Examples",
+      "url": "https://www.spellbound.io/examples"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://www.spellbound.io/blog-main"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     },
-    "topbarLinks": [
-      {
-        "name": "Examples",
-        "url": "https://www.spellbound.io/examples"
-      }
-    ],
-    "anchors": [
-      {
-        "name": "Product Quizzes",
-        "icon": "block-question",
-        "url": "https://www.spellbound.io/quizzes"
-      },
-      {
-        "name": "Smart Surveys",
-        "icon": "clipboard",
-        "url": "https://www.spellbound.io/smart-surveys"
-      },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://www.spellbound.io/blog-main"
-      }
-    ],
-    "tabs": [
-        {
-          "name": "API Reference",
-          "url": "api-reference"
-        }
-      ],
-    "navigation": [
-        {
-            "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
-          },
-          {
-            "group": "Essentials",
-            "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-          },
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
-    ],
-    "footerSocials":
-      {
-          "twitter": "https://twitter.com/spellboundio?lang=en",
-          "linkedin": "https://www.linkedin.com/company/spellboundio/"
-      }
-  }
+    {
+      "group": "Essentials",
+      "pages": [
+        "essentials/markdown",
+        "essentials/code",
+        "essentials/images",
+        "essentials/settings",
+        "essentials/navigation"
+      ]
+    },
+    {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/spellboundio?lang=en",
+    "linkedin": "https://www.linkedin.com/company/spellboundio/"
+  },
+  "backgroundImage": "/images/background.png"
+}
